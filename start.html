@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Lezione HTML</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #bbdefb;
+      }
+
+      table {
+        table-layout: fixed;
+        border-collapse: collapse;
+        letter-spacing: 1px;
+        background-color: #fff;
+      }
+
+      table caption {
+        font-size: 30px;
+        margin: 50px 0px 20px 0px;
+        font-weight: bold;
+        font-family: monospace;
+      }
+
+      table thead th {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      table tfoot td:nth-child(2) {
+        background-color: #e8f5e9;
+        border: 3px solid #00c853;
+        font-weight: bold;
+        color: #00c853;
+      }
+      table tfoot td:nth-child(3) {
+        background-color: #ffebee;
+        border: 3px solid #d50000;
+        font-weight: bold;
+        color: #d50000;
+      }
+
+      table tbody td,
+      table thead th,
+      table tfoot td {
+        padding: 12px 30px;
+        border: 1px solid black;
+      }
+
+      table tbody td:nth-child(2),
+      table thead th:nth-child(2) {
+        background-color: #b9f6ca;
+      }
+
+      table tbody td:nth-child(3),
+      table thead th:nth-child(3) {
+        background-color: #ff8a80;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <caption>
+        Tabella annuale delle entrate e uscite
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Mesi</th>
+          <th>Entrate</th>
+          <th>Uscite</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Gennaio</td>
+          <td>+850€</td>
+          <td>-200€</td>
+        </tr>
+        <tr>
+          <td>Febbraio</td>
+          <td>+878€</td>
+          <td>-200€</td>
+        </tr>
+        <tr>
+          <td>Marzo</td>
+          <td>+825€</td>
+          <td>-205€</td>
+        </tr>
+        <tr>
+          <td>Aprile</td>
+          <td>+810€</td>
+          <td>-200€</td>
+        </tr>
+        <tr>
+          <td>Maggio</td>
+          <td>+835€</td>
+          <td>-215€</td>
+        </tr>
+        <tr>
+          <td>Giugno</td>
+          <td>+820€</td>
+          <td>-200€</td>
+        </tr>
+        <tr>
+          <td>Luglio</td>
+          <td>+810€</td>
+          <td>-200€</td>
+        </tr>
+        <tr>
+          <td>Agosto</td>
+          <td>+800€</td>
+          <td>-220€</td>
+        </tr>
+        <tr>
+          <td>Settembre</td>
+          <td>+830</td>
+          <td>-210€</td>
+        </tr>
+        <tr>
+          <td>Ottobre</td>
+          <td>+850€</td>
+          <td>-200€</td>
+        </tr>
+        <tr>
+          <td>Novembre</td>
+          <td>+825€</td>
+          <td>-200€</td>
+        </tr>
+        <tr>
+          <td>Dicembre</td>
+          <td>+1600€</td>
+          <td>-250€</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Somma tot.</td>
+          <td>+10.733€</td>
+          <td>-2.500€</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
